@@ -8,6 +8,7 @@ const {
 } = require("@discordjs/voice");
 const googleTTS = require("google-tts-api");
 const play = require("play-dl");
+require("dotenv").config();
 
 const client = new Client({
   intents: [
